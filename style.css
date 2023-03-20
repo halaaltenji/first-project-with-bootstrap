@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+   overflow-x: hidden;
+}
+.navbar{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.nav-item{
+    padding: .4rem;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link.active,.nav-link:hover{
+    color:#ffc107 !important;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 400px;
+}
+.carousel-caption{
+    width: 70%;
+    top: 260px;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 2;
+
+
+
+}
+
+
+.carousel-caption h5{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.carousel-caption p{
+   width: 100%;
+  margin: auto;
+    line-height:1.9 ;
+    
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.section-about{
+    font-family: 'Castoro', serif;
+}
+.w-100{
+    height: 100vh;
+
+}
+#features i{
+    font-size: 50px;
+  
+}
+#features{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team .card-body i{
+    font-size: 20px;
+
+}
+.protfolio .card-body{
+    box-shadow: 15px 15px 140px rgba(0, 0, 0, 0.15);
+}
+.team .card-body{
+    box-shadow: 15px 15px 140px rgba(0, 0, 0, 0.15);
+ 
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .carousel-caption{
+     top: 250px;
+       
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .img-area img{
+        width: 100%;
+    }
+  
+}
+@media (max-width:767px){
+    .navbar-nav{
+        text-align:start;
+        padding: 10px ;
+        
+    }
+    .carousel-caption{
+        width: 70%;
+        top: 250px;
+     
+      
+       
+        
+    }
+    .carousel-caption h5{
+        font-size: 35px;
+
+        
+    }
+    
+    .carousel-caption p{
+    width: 100%;
+    line-height: 1.9;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 10px;
+    }
+    .services .row .card{
+       width: 100%;
+     margin: 0;
+     padding: 0;
+    }
+    .team .container .row{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+   
+}
